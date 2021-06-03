@@ -43,8 +43,10 @@ public class MainActivity extends AppCompatActivity {
         double Lebar = Double.parseDouble(String.valueOf(eLebar.getText()));
         double Hasil = 2*(Panjang+Lebar);
 
-        eHasil.setText(String.valueOf(Hasil));
+
         eHasil1.setText(String.valueOf(Hasil));
+
+        //eHasil.setText(String.valueOf(Hasil));
     };
 
 }
